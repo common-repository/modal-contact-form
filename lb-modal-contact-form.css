@@ -1,0 +1,351 @@
+/****************** Default CSS for Modal Contact Form plugin ********************/
+
+/****************** CSS Rules for antispam slider ********************/
+.ui-widget:active 
+{ 
+	outline: none; 
+}
+
+.ui-corner-all 
+{ 
+	border-radius: 4px; 
+}
+
+.ui-widget-content 
+{
+    background: #EEE;
+    border: 1px solid #DDD;
+    color: #333;
+}
+
+.ui-slider-horizontal 
+{ 
+	height: 25px; 
+}
+
+.ui-slider 
+{ 
+	position: relative; 
+	width: 90%;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default 
+{
+    background: #AAA;
+    border: 1px solid #BBB;
+    font-weight: bold;
+    outline: medium none;
+}
+
+.ui-slider-horizontal .ui-slider-handle 
+{
+    margin-left: -3px;
+    top: -3px;
+}
+
+.ui-slider-range {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #eaeaea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eaeaea));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eaeaea 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#eaeaea 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#eaeaea 100%);
+    background: linear-gradient(top, #ffffff 0%,#eaeaea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 );
+    position: absolute;
+    border: 0;
+    top: 0;
+    height: 100%;
+}
+
+
+.lb-modal-contact-form-antispam-slider  .ui-slider-handle 
+{
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    width: 20px;
+    z-index: 2;
+}
+
+.ui-slider-handle:hover 
+{
+    background: #1E5799;
+}
+
+.lb-modal-contact-form-antispam-slider  .ui-widget-header
+{
+	background-image:none;
+	background-color:#3498db;
+}
+	
+/****************** CSS Rules for contact form fields *************/
+
+#lb-modal-contact-form-window
+{
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	margin-bottom:20px;
+}
+
+.lb-modal-contact-form-antispam 
+{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.lb-modal-contact-form-antispam-info
+{
+    padding-bottom: 15px;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.lb-modal-contact-form-antispam-slider 
+{
+	height:32px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#lb-modal-contact-form-window  input, 
+#lb-modal-contact-form-window  textarea 
+{
+	//background-color:#F5F5F5;
+	border: 1px solid #EEE;
+	font-size:12px;
+	
+}
+
+#lb-modal-contact-form-contact, 
+#lb-modal-contact-form-mail, 
+#lb-modal-contact-form-tel,
+#lb-modal-contact-form-message, 
+#lb-modal-contact-form-copy 
+{
+border-radius:0;
+	box-shadow:none;
+    font-size:12px;
+	resize:none;
+	padding:5px;
+	margin:5px;	
+	line-height: 18px;
+	background-color:#F5F5F5;
+}
+
+#lb-modal-contact-form-window textarea 
+{
+	height: 200px;
+}
+
+#lb-modal-contact-form-contact,
+#lb-modal-contact-form-mail, 
+#lb-modal-contact-form-tel,
+#lb-modal-contact-form-message 
+{
+	width: 95%;
+}
+
+#lb-modal-contact-form-window  input:hover, 
+#lb-modal-contact-form-window  textarea:hover,
+#lb-modal-contact-form-window  input:focus, 
+#lb-modal-contact-form-window  textarea:focus 
+{
+	border-color: 1px solid #DDD;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+
+#lb-modal-contact-form-window  label 
+{
+	color: #999;
+	font-size:14px;
+}
+
+#lb-modal-contact-form-window  p 
+{
+	text-align:left;
+}
+
+.lb-modal-contact-form-submit 
+{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#lb-modal-contact-form-window > div.lb-modal-contact-form-main > form > div > p > input, .lb-modal-contact-form-send,
+ .lb-modal-contact-form-btn  {
+  display:block;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  padding: 20px;
+  line-height:20px;
+  width:120px;
+  cursor:pointer;
+  text-decoration: none;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+#lb-modal-contact-form-window > div.lb-modal-contact-form-main > form > div > p > input, label.lb-modal-contact-form-btn,
+.lb-modal-contact-form-send
+   {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+}
+
+
+.lb-modal-contact-form-btn:hover ,
+.lb-modal-contact-form-send:hover 
+{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/****************** CSS rules for modal window *******************/
+
+
+.lb-modal-contact-form-modal-content{
+    background: #fff;
+    border: 2px solid #ddd;
+    position: relative;
+    margin: 10% auto;
+    width: 40%;
+    min-width:300px;
+	box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+}
+
+#lb-modal-contact-form-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+#lb-modal-contact-form-open
+{
+	text-decoration:none;
+}
+
+#lb-modal-contact-form-overlay:target 
+{
+    display: block;
+}
+
+#lb-modal-contact-form-window .btn-close
+{
+	color:#AAA;
+	cursor:pointer;
+	font-size:30px;
+	position:absolute;
+	top:3px;
+	right:8px;
+	text-decoration:none
+}
+
+#lb-modal-contact-form-window .btn-close:hover,
+#lb-modal-contact-form-window .btn-close:focus
+{
+	color:#999;
+}
+
+.lb-modal-contact-form-main, 
+.lb-modal-contact-form-top
+{
+	padding:10px;
+}
+.lb-modal-contact-form-main p
+{
+	margin:0px;
+}
+.lb-modal-contact-form-top
+{
+	border-bottom:#AAA solid 1px;
+	background:#F5F5F5;
+	border-radius:10px 10px 0px 0px;
+}
+.lb-modal-contact-form-top h2
+{
+	font-family: Arial, sans-serif;
+	font-size:16px;
+	margin:0px;
+	padding:0px;
+	color:#999;
+}
+
+
+ 
+/****************** CSS rules to adapt modal window to smaller resolutions *******************/
+
+@media screen and (max-width:768px){
+	.ui-slider-horizontal 
+	{ 
+		height: 15px; 
+	}
+
+	.lb-modal-contact-form-antispam-slider  .ui-slider-handle 
+	{
+		height: 30px;
+		width: 15px;
+	}
+
+	#lb-modal-contact-form-window 
+	{
+		font-size: 12px;
+		margin-bottom:15px;
+	}
+
+	#lb-modal-contact-form-window  textarea 
+	{
+		height: 125px;
+	}
+
+	.lb-modal-contact-form-antispam-info
+	{
+		padding-bottom: 10px;
+	}
+
+	.lb-modal-contact-form-antispam-slider 
+	{
+		height:25px;
+	}
+
+	.lb-modal-contact-form-top h2
+	{
+		font-size:16px;
+	}
+
+}
+
+
+

@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lb_contact_modal\n"
+"POT-Creation-Date: 2016-02-16 16:26+0100\n"
+"PO-Revision-Date: 2016-02-16 16:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lb-modal-contact-form.php:73
+msgid "Drag cursor to the right"
+msgstr "Faire glisser le curseur vers la droite"
+
+#: lb-modal-contact-form.php:74
+msgid "SEND"
+msgstr "ENVOI"
+
+#: lb-modal-contact-form.php:142
+msgid "Contact Modal Form Settings"
+msgstr "Réglages Contact Modal Form"
+
+#: lb-modal-contact-form.php:148
+msgid "General settings"
+msgstr "Paramètres"
+
+#: lb-modal-contact-form.php:149
+msgid "Contact email"
+msgstr "Email de contact"
+
+#: lb-modal-contact-form.php:150
+msgid "Allow attachments"
+msgstr "Autoriser les pièces jointes"
+
+#: lb-modal-contact-form.php:151
+msgid "Default CSS"
+msgstr "CSS par défault"
+
+#: lb-modal-contact-form.php:152
+msgid "Modal window"
+msgstr "Fenêtre modale"
+
+#: lb-modal-contact-form.php:153
+msgid "Phone field"
+msgstr "Champ téléphone"
+
+#: lb-modal-contact-form.php:154
+msgid "Email field"
+msgstr "Champ email"
+
+#: lb-modal-contact-form.php:155
+msgid "Autoreply"
+msgstr "Réponse automatique"
+
+#: lb-modal-contact-form.php:162
+msgid "Contact Modal form settings"
+msgstr "Réglages Contact Modal Form"
+
+#: lb-modal-contact-form.php:180
+msgid "Please provide following information:"
+msgstr "Veuillez fournir les renseignements suivants :"
+
+#: lb-modal-contact-form.php:181
+msgid "One email address to receive messages"
+msgstr "Adresse e-mail pour recevoir des messages"
+
+#: lb-modal-contact-form.php:182
+msgid "Choose if you allow an attached file to your contact form"
+msgstr ""
+"Choisissez si vous autorisez un fichier joint à votre formulaire de contact"
+
+#: lb-modal-contact-form.php:183
+msgid "Choose if you want to use your own CSS formatting or default one"
+msgstr ""
+"Choisissez si vous souhaitez utiliser votre propre CSS de mise en forme ou "
+"celui par défaut"
+
+#: lb-modal-contact-form.php:184
+msgid ""
+"Choose if you want to display contact form in a modal window (default) or "
+"embedded"
+msgstr ""
+"Choisissez si vous souhaitez afficher le formulaire de contact dans une "
+"fenêtre modale (par défaut) ou encapsulé "
+
+#: lb-modal-contact-form.php:185
+msgid "Choose if you want to enable phone and email fields on contact form"
+msgstr ""
+"Choisissez si vous souhaitez activer les champs téléphone et courriel dans "
+"le formulaire de contact"
+
+#: lb-modal-contact-form.php:186
+msgid "In case you are out of office, choose if you want to mention it"
+msgstr ""
+"Dans le cas où vous êtes absent, choisissez si vous voulez en faire mention"
+
+#: lb-modal-contact-form.php:206 lb-modal-contact-form.php:213
+#: lb-modal-contact-form.php:220
+msgid "On"
+msgstr "Oui"
+
+#: lb-modal-contact-form.php:206 lb-modal-contact-form.php:213
+#: lb-modal-contact-form.php:220
+msgid "Off"
+msgstr "Non"
+
+#: lb-modal-contact-form.php:234
+msgid "Enter here your autoreply message"
+msgstr "Entrez ici votre message d'absence"
+
+#: lb-modal-contact-form.php:255
+msgid "If you like the plugin, you can buy me a coffee :-)"
+msgstr "Si vous aimez ce plugin, vous pouvez m'offrir un café :-)"
+
+#: lb-modal-contact-form.php:276
+msgid "CONTACT"
+msgstr "CONTACT"
+
+#: lb-modal-contact-form.php:284 lb-modal-contact-form.php:350
+msgid "CONTACT US"
+msgstr "CONTACTEZ NOUS"
+
+#: lb-modal-contact-form.php:290 lb-modal-contact-form.php:355
+msgid "Name"
+msgstr "Nom"
+
+#: lb-modal-contact-form.php:297 lb-modal-contact-form.php:362
+#: lb-modal-contact-form.php:424 lb-modal-contact-form.php:426
+msgid "Phone number"
+msgstr "Téléphone"
+
+#: lb-modal-contact-form.php:305 lb-modal-contact-form.php:370
+#: lb-modal-contact-form.php:424 lb-modal-contact-form.php:428
+msgid "Email"
+msgstr "Email"
+
+#: lb-modal-contact-form.php:311 lb-modal-contact-form.php:376
+msgid "Message"
+msgstr "Message"
+
+#: lb-modal-contact-form.php:312 lb-modal-contact-form.php:377
+msgid "Your message"
+msgstr "Votre message"
+
+#: lb-modal-contact-form.php:321 lb-modal-contact-form.php:387
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: lb-modal-contact-form.php:330 lb-modal-contact-form.php:396
+msgid "Receive a copy"
+msgstr "Recevoir une copie"
+
+#: lb-modal-contact-form.php:422
+msgid "Contact from site"
+msgstr "Contact du site"
+
+#: lb-modal-contact-form.php:424 lb-modal-contact-form.php:426
+#: lb-modal-contact-form.php:428 lb-modal-contact-form.php:430
+msgid "You have received following message from"
+msgstr "Vous avez reçu le message suivant de"
+
+#: lb-modal-contact-form.php:424 lb-modal-contact-form.php:426
+#: lb-modal-contact-form.php:428 lb-modal-contact-form.php:430
+msgid "The message is"
+msgstr "Voici le message"
+
+#: lb-modal-contact-form.php:473 lb-modal-contact-form.php:475
+#: lb-modal-contact-form.php:498 lb-modal-contact-form.php:500
+#: lb-modal-contact-form.php:515 lb-modal-contact-form.php:517
+msgid "You have sent the following message"
+msgstr "Vous avez envoyé le message suivant "
+
+#: lb-modal-contact-form.php:484 lb-modal-contact-form.php:492
+#: lb-modal-contact-form.php:523
+msgid "Message has been sent"
+msgstr "Le message a été envoyé"
+
+#~ msgid ""
+#~ "We are currently out of office, we will contact you as soon as possible. "
+#~ "Regards."
+#~ msgstr ""
+#~ "Nous sommes actuellement absent, nous vous contacterons dès que possible. "
+#~ "Cordialement."
+
+#~ msgid "We are currently out of office"
+#~ msgstr "Nous sommes actuellement hors bureau"
+
+#~ msgid "Donate to LB Modal Contact Form plugin"
+#~ msgstr ""
+#~ "Faire un don pour contribuer au développement du plugin LB Modal Contact "
+#~ "Form "
+
+#~ msgid "Donation"
+#~ msgstr "Faire un don"
+
+#~ msgid "If you like the plugin, you can buy me a coffee ;-)"
+#~ msgstr "Si vous aimez ce plugin, vous pouvez m'offrir un café :-)"
+
+#~ msgid "If you like the plugin, you can buy me a beer ;-)"
+#~ msgstr "Si vous aimez ce plugin, vous pouvez m'offrir un café"
+
+#~ msgid "If you like the plugin, you can buy me a beer"
+#~ msgstr "Si vous aimez ce plugin, vous pouvez m'offrir un café ;-)"
+
+#~ msgid "Display modal"
+#~ msgstr "Fenêtre modale"
+
+#~ msgid "Message has not been sent"
+#~ msgstr "Le message n'a pas pu être envoyé"
+
+#~ msgid "You have sent the following message:"
+#~ msgstr "Vous avez envoyé le message suivant :"
+
+#~ msgid "Antispam - Drag cursor to the right"
+#~ msgstr "Antispam - Poussez le curseur vers la droite"
+
+#~ msgid "Contact from site "
+#~ msgstr "Contact du site"
+
+#~ msgid "You have received following message from:"
+#~ msgstr "Vous avez reçu un message de :"
+
+#~ msgid "The message is:"
+#~ msgstr "Voici le message :"
